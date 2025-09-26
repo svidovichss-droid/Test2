@@ -1,5 +1,3 @@
-[file name]: script.js
-[file content begin]
 // Конфигурация приложения
 const CONFIG = {
     JSON_URL: 'https://raw.githubusercontent.com/svidovichss-droid/ProgressSAP.github.io/main/data.json',
@@ -629,4 +627,3 @@ document.addEventListener('DOMContentLoaded', function() {
 // Экспортируем функции для глобального использования
 window.calculateExpiry = calculateExpiry;
 window.forceRefreshData = forceRefreshData;
-[file content end]
